@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_haberler"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="Haberler" />
+                <item
+                    android:id="@+id/nav_duyurular"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="Duyurular" />
+                <item
+                    android:id="@+id/nav_satinalma"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Satınalma Teklifleri" />
+
+    <item android:title="Bilgi Bankası">
+        <menu>
+            <item
+                android:id="@+id/nav_tescil"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Tescil ve Üyelik" />
+            <item
+                android:id="@+id/nav_belgehizm"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Belge Hizmetleri" />
+            <item
+                android:id="@+id/nav_yayinlar"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Yayınlarımız" />
+
+
+        </menu>
+    </item>
+    <item android:title="SamsunTSO">
+        <menu>
+            <item
+                android:id="@+id/nav_meclisuyeler"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Meclis Üyeleri" />
+            <item
+                android:id="@+id/nav_yonetim"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Yönetim Kurulu" />
+            <item
+                android:id="@+id/nav_meslekkom"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Meslek Komiteleri" />
+            <item
+                android:id="@+id/nav_organizasyon"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Organizasyon" />
+
+        </menu>
+    </item>
+    <item android:title="İletişim">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Paylaşım" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Gönder" />
+        </menu>
+    </item>
+    </group>
+
+</menu>
